@@ -10,12 +10,12 @@ int main(int argc, char *argv[]) {
 	printf ("nhap gia tri :\n", num2);
 	scanf ("%d", &num2);
 	
-    sum=num1+num2;
-	 if (sum%2!=0)
-	    for (num1=1;num1<num2; num1+=2)
-	    {
-	    	printf ("%d\n", sum=num1+num2);
+     for (i=num1; i<=num2;i++)
+	    {if (i%2!=0)
+	       	 sum+=i;
 		}
+	
+		printf ("tong so le: %d\n", sum);
 	
 
 
