@@ -10,17 +10,13 @@ int main(int argc, char *argv[]) {
 	printf ("nhap gia tri :\n", num2);
 	scanf ("%d", &num2);
 	
-     for (i=num1; i<=num2;i++)
-	    {if (i%2!=0)
-	       	 sum+=i;
+    for (i=num1; i<=num2;i++)
+	    {
+			if (i%2!=0)
+	       	 	sum+=i;
 		}
 	
-		printf ("tong so le: %d\n", sum);
-	
-
-
-			
-
+	printf ("tong so le: %d\n", sum);
 	
 	return 0;
 }
